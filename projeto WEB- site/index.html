@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+
+    <title>S&S Engenharia</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  p {
+    font-size: 15px;
+    color: #f1e4e4;
+}
+h2 {
+    font-size: 30px;
+    color: #f4efef;
+}
+  head, nav {
+
+    height: 60px;
+  }
+  header nav {
+    width: 80%;
+    border-bottom: 1px solid#000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+    a{
+    width: 140px;
+    height: 40px;
+    border-radius:5px;
+    background-color: #516361;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: nome;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.material-symbols-outlined{
+    margin-right: 5px;
+}
+
+a:hover .material-symbols-outlinedi{
+    animation: girar 1s linear infinite;
+}
+@keyframes girar {
+    to{
+        transform: rotate(360deg);
+    }
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><span class="material-symbols-outlined">
+                home
+                </span>Inicio</a>
+
+            <a href="contato.html"><span class="material-symbols-outlined">
+                connect_without_contact
+                </span>contato</a>
+
+            <a href="sobre.html"><span class="material-symbols-outlined">
+                filter_list
+                </span>sobre</a>
+
+           
+        </nav>
+    </header>
+    <header>
+    <h1></h1>
+    <div class="content">
+        <h1>Solucoes e Servicos de Engenharia</h1><br>
+        "Engenharia a Arte de Mudar o mundo"
+      </div>
+    </header>
+
+    <main>
+        <section class="background">
+            <h2>Referencia em Servicos</h2>
+            *Usucapião *Retificação de Área *Aerolevantamentos *Projeto de Loteamento <br> 
+            *Cálculo de Corte e Aterro *Locação de Obra Civil *Georreferenciamento de Imóveis Rurais * <br>
+                
+               Levantamento Topográfico Planimétrico *Levantamento Topográfico Planialtimétrico <br>  
+                *Desmembramento e Unificação de Lotes. <br>
+
+                
+            <div class="button-container">
+
+
+
+                
+                <button onclick="window.location.href='projetos.html'">
+                    <img src="projetos.jpeg" alt="Exemplo de Imagem"><p>PROJETOS</p>
+                  </button>
+                  <button onclick="window.location.href='fotogrametria.html'">
+                    <img src="quadcopter.jpg.avif" alt="Exemplo de Imagem"><P>FOTOGRAMETRIA</P>
+                  </button>
+                  <button onclick="window.location.href='trabalhocampo.html'">
+                    <img src="estacao-total.jpg" alt="Exemplo de Imagem"><P>TRABALHOS DE CAMPO</P>
+                  </button>
+
+            </div>
+            
+            
+        </section>
+
+              <h2>Servicos</h2>
+              <p>A S&S Engenharia é uma empresa reconhecida pelos seus serviços realizados na área de construção civil,  especificamente relacionados a Topografia e Engenharia. Verifique nossa atuação no mercado na aba Portfólio. 
+
+                A Topografia exerce importância em todas as etapas construtivas, desde a fase de projeto e concepção do empreendimento até o final da construção, uma vez que utilizando os métodos e instrumentação adequada permite o conhecimento minucioso do terreno e garante a implantação correta da obra ou serviço.
+                
+                E a Engenharia Civil se faz presente para edificar as ideias e executar projetos, buscando garantir segurança, economia e conforto, além de se preocupar em executar obras e serviços de forma ambientalmente correta e sustentável.
+                
+                Todos os serviços são acompanhados por um Engenheiro Civil devidamente credenciado ao CREA/SP e ao INCRA.</p>
+    </main>
+    <br>
+
+    <footer>
+      
+        &copy; 2024 Meu Site. Todos os direitos reservados.
+    </footer>
+
+    
+</body>
+</html>

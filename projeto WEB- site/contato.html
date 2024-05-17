@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+
+    <title>S&S Engenharia</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  head, nav {
+
+    height: 60px;
+  }
+  header nav {
+    width: 80%;
+    border-bottom: 1px solid#000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+    a{
+    width: 140px;
+    height: 40px;
+    border-radius:5px;
+    background-color: #516361;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: nome;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.material-symbols-outlined{
+    margin-right: 5px;
+}
+
+a:hover .material-symbols-outlinedi{
+    animation: girar 1s linear infinite;
+}
+@keyframes girar {
+    to{
+        transform: rotate(360deg);
+    }
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><span class="material-symbols-outlined">
+                home
+                </span>Inicio</a>
+
+            <a href="contato.html"><span class="material-symbols-outlined">
+                connect_without_contact
+                </span>contato</a>
+
+            <a href="sobre.html"><span class="material-symbols-outlined">
+                filter_list
+                </span>sobre</a>
+
+          
+        </nav>
+    </header>
+    <header>
+    <h1></h1>
+    <div class="content">
+        <h1>Solucoes e Servicos de Engenharia</h1>
+        <p>"Engenharia a Arte de Mudar o mundo"</p>
+      </div>
+    </header>
+
+    <main>
+        <section class="background">
+            <h2>Solicite seu orcamento</h2>
+            <iframe
+        width="600"
+        height="450"
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7221731.087376245!2d-46.7430730501003!3d-22.716370697020143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a66ccd2eb7ec2d%3A0xa3849b2b9364f6d5!2sCampos%20do%20Jord%C3%A3o%2C%20SP!5e0!3m2!1sen!2sbr!4v1631122046718!5m2!1sen!2sbr"
+        allowfullscreen>
+    </iframe>
+    </main>
+
+    <footer>
+        <div class="message-box">
+            <h3>Envie-nos uma mensagem</h3>
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required
+                   placeholder="(XX) XXXX-XXXX"
+                   pattern="\(\d{2}\) \d{4}-\d{4}"><br>
+                   <label for="email">E - mail   :</label>
+<input type="email" id="email" name="email" required
+         placeholder="seuemail@example.com"
+         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+          <br>  <textarea rows="4" cols="50"></textarea><br>
+            <button type="submit">Enviar</button>
+        </div><br>
+        
+
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+    
+</body>
+</html>
